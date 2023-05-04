@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/mainScreenFragment2">
+
+    <fragment
+        android:id="@+id/mainScreenFragment2"
+        android:name="eu.tutorials.countrydetail.ui.fragment.MainScreenFragment"
+        android:label="fragment_main_screen"
+        tools:layout="@layout/fragment_main_screen" >
+        <action
+            android:id="@+id/detailTransition"
+            app:destination="@id/countryDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryDetailFragment"
+        android:name="eu.tutorials.countrydetail.ui.fragment.CountryDetailFragment"
+        android:label="fragment_country_detail"
+        tools:layout="@layout/fragment_country_detail" >
+        <argument
+            android:name="country"
+            app:argType="eu.tutorials.countrydetail.data.entity.Country" />
+    </fragment>
+</navigation>

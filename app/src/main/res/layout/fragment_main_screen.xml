@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <variable name="toolbar_main_screen_title" type="String" />
-        <variable name="MainScreenFragment" type="eu.tutorials.countrydetail.ui.fragment.MainScreenFragment" />
+
+        <variable name="toolbarMainScreenTitle" type="String" />
+        <variable name="mainScreenFragment" type="eu.tutorials.countrydetail.ui.fragment.MainScreenFragment" />
+        <variable name="countryAdapter" type="eu.tutorials.countrydetail.ui.adapter.CountryAdapter" />
 
     </data>
 
@@ -18,21 +20,21 @@
             android:id="@+id/toolbar_main_screen"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            app:title="@{toolbarMainScreenTitle}"
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
-            app:title="@{toolbar_main_screen_title}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_main_screen"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:adapter="@{countryAdapter}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
