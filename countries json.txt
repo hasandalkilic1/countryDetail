@@ -1,0 +1,108 @@
+{
+  {
+    "id": 1,
+    "country_name": "Turkey",
+    "capital_name": "Ankara",
+    "country_flag": "https://tr.wikipedia.org/wiki/Dosya:Flag_of_Turkey.svg#/media/Dosya:Flag_of_Turkey.svg"
+    "country_description": "The Anatolian peninsula is often called - the cradle of civilization -, as it has been home to a wide variety of tribes and nations of people since at least 10,000 B.C.On the site of Göbekli Tepe, there is the oldest known man-made structure, the collection of the oldest known megaliths in the world, dating back to around 10,000 B.C.From about 1200 B.C., the coast of Anatolia was heavily populated by Aeolian and Ionian Greeks. Numerous important cities were founded by the Greek colonists, such as Miletus, Ephesus, Smyrna (today İzmir), and Byzantium (that later became Constantinople, now Istanbul).In the second half of the 11th century the Seljuk Turks began to invade medieval Armenia and the eastern regions of Anatolia. In 1071, the Seljuks defeated the Byzantines at the Battle of Manzikert, thus initiating the process of Turkization in the region; the Turkish language and Islam were introduced into Armenia and Anatolia.The Republic of Turkey was founded in 1923 by Mustafa Kemal Ataturk, replacing the dynastic and theocratic Ottoman system with its Sultanates and Caliphates. The new republic was based on a secular democratic, pluralist, and parliamentary system.In 1945 Turkey joined the UN and became a member of NATO in 1952.Turkey occupied the northern portion of Cyprus in 1974 to prevent a Greek takeover of the island; relations between the two countries remain strained.Periodic military offensives against Kurdish separatists have displaced part of the population in southeastern Turkey and provoked international condemnation.In recent years, Turkey has become a major tourist destination in Europe."
+  },
+  {
+    "id": 2,
+    "country_name": "United Kingdom",
+    "capital_name": "London",
+    "country_flag": "https://en.wikipedia.org/wiki/File:Flag_of_the_United_Kingdom_(1-2).svg#/media/File:Flag_of_the_United_Kingdom_(1-2).svg"
+    "country_description": "Once a 'great' nation, at its zenith, the British Empire stretched over one-fourth of the earth's surface.Now four constituent nations form the United Kingdom (England, Scotland, Wales, and Northern Ireland). Great Britain, the dominant industrial and maritime power of the 19th century, played a leading role in developing parliamentary democracy, in advancing literature, science, and later pop music.The first half of the 20th century saw the UK's strength critically depleted in two World Wars. The second half witnessed the dismantling of the Empire and the UK rebuilding itself into a modern and prosperous European nation. As one of five permanent members of the UN Security Council, a founding member of NATO, and the Commonwealth, the UK pursues a global approach to foreign policy; it currently is weighing the degree of its integration with continental Europe (Brexit).Still a member of the EU, it chose to remain outside of the European Monetary Union for the time being. Constitutional reform is also a significant issue in the UK. Regional assemblies with varying degrees of power opened in Scotland, Wales, and Northern Ireland in 1999."
+  },
+  {
+    "id": 3,
+    "country_name": "France",
+    "capital_name": "Paris",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_France#/media/File:Flag_of_France.svg"
+    "country_description": "
+Since prehistoric times, the region that is known today as France has been the scene of trade, travel, and invasions. Three basic European ethnic stocks--Celtic, Latin, and Teutonic (Frankish)--have blended over the centuries to make up France's present population.Today France is one of the most modern countries in the world and is a leader among European nations.Since 1958, it has constructed a presidential democracy, resistant to the instabilities experienced in earlier parliamentary democracies. In recent years, its reconciliation and cooperation with Germany have proved central to the economic integration of Europe, including the advent of the euro in January 1999.Presently, France is at the forefront of European states seeking to exploit the momentum of monetary union to advance the creation of a more unified and capable European defense and security apparatus.France is the most visited country in the world, with 89.4 million foreign tourists in 2018."
+  },
+  {
+    "id": 4,
+    "country_name": "Germany",
+    "capital_name": "Berlin",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_Germany#/media/File:Flag_of_Germany.svg"
+    "country_description": "The Federal Republic of Germany is located in the heart of Europe. The nation-state now known as Germany was first unified in 1871 as a modern federal state, the German Empire.In the first half of the 20th century, two devastating World Wars, of which Germany was responsible for, left the country occupied by the victorious Allied powers.With the advent of the Cold War, two German states were formed in 1949: the western Federal Republic of Germany (FRG) and the eastern German Democratic Republic (GDR).The democratic FRG embedded itself in Western economic and security organizations, the EEC and NATO, while the communist GDR was on the front line of the Soviet-led Warsaw Pact. The decline of the USSR and the fall of Communism enabled Germany's unification in 1990.With the unification of the two German states, the country became Europe's most populous nation (situated entirely in Europe) and strengthened its role as a key member of the European Union and the continent's economic, political, and security organizations."
+  },
+  {
+    "id": 5,
+    "country_name": "Netherlands",
+    "capital_name": "Amsterdam",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_the_Netherlands#/media/File:Flag_of_the_Netherlands.svg"
+    "country_description": "After centuries of foreign rules by the Romans, Franks, Burgunds, Habsburgs, and Spaniards in 1648 the Dutch Republic became a free and sovereign state. During the 17th century, also called the 'Golden Age', the Republic became increasingly prosperous and a major colonial power, thanks largely to the Dutch East India Company (VOC).In 1815, the northern and southern Netherlands – today's Netherlands and Belgium – were combined to form the Kingdom of the Netherlands. In 1830 Belgium seceded and formed a separate kingdom. The Netherlands remained neutral in World War I but was invaded in World War II by Germany in May 1940 and occupied for five years.Today the Netherlands is a modern, industrialized nation and the third largest exporter of food. The country was a founding member of NATO and the EU, and participated in the introduction of the Euro in 1999."
+  },
+  {
+    "id": 6,
+    "country_name": "Greece",
+    "capital_name": "Athens",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_Greece#/media/File:Flag_of_Greece.svg"
+    "country_description": "Greece has been inhabited since the Paleolithic era. In ancient times there have been three main civilizations in Greece, the Trojan civilization in Troy, the Cretan or Minoan civilization centered on Crete, and the Helladic or Mycenaean civilization of the Greek mainland. Greek's victory against the Persian invaders at the beginning of the 5th century strengthens Athens' role as the leader of the Greek world. It marks the beginning of an epoch called - The Golden Age of Pericles - in which Athens became the cradle of democracy itself. In the following Hellenistic Period, Greek civilization has spread, and the Greek language became official in the eastern Mediterranean.Followed by the Greco-Roman civilization and a long period of foreign occupation through Romans, French, Spanish, and the Ottomans, Greece achieved its independence from the Ottoman Empire in 1830.During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories with Greek-speaking populations. In 1945, Greece became a member of the UN.Following the defeat of communist rebels in 1949, Greece joined NATO in 1952.In 1967 a coup d'état took place, which led to a military dictatorship that lasted seven years. Many political freedoms were suspended, and the king was forced to flee the country. In autumn 1973, anti-government student revolts broke out, which led to the overthrow of the junta in July 1974.Democratic elections in 1974 and a referendum created a parliamentary republic and abolished the monarchy; Greece joined the European Community or EC in 1981 (which became the EU in 1992)."
+  },
+  {
+    "id": 7,
+    "country_name": "Bulgaria",
+    "capital_name": "Sophia",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_Bulgaria#/media/File:Flag_of_Bulgaria.svg"
+    "country_description": "Bulgaria earned its independence from the Ottoman Empire in 1878, but having fought on the losing side in both World Wars, it fell within the Soviet sphere of influence and became a People's Republic in 1946.Communist domination ended in 1990, when Bulgaria held its first multi-party election since World War II and began the contentious process of moving toward political democracy and a market economy while combating inflation, unemployment, corruption, and crime.Bulgaria became a NATO member state in 2004 and joined the EU on 1 January 2007."
+  },
+  {
+    "id": 8,
+    "country_name": "Belgium",
+    "capital_name": "Brussels",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_Belgium#/media/File:Flag_of_Belgium.svg"
+    "country_description": "Belgium became independent from the Netherlands after a nationalist revolt in 1830. Occupied and devastated during both world wars, Belgium formed the Benelux Customs Union with the Netherlands and Luxembourg in 1948 and became a founding member of the EEC.Tensions between the Dutch-speaking Flemings of the north and the French-speaking Walloons of the south have led in recent years to constitutional amendments granting these regions formal recognition and autonomy."
+  },
+  {
+    "id": 9,
+    "country_name": "Czech Republic",
+    "capital_name": "Prague",
+    "country_flag": "https://tr.wikipedia.org/wiki/%C3%87ekya_bayra%C4%9F%C4%B1#/media/Dosya:Flag_of_the_Czech_Republic.svg"
+    "country_description": "The Czech Republic is a landlocked country in central Europe.Before World War I part of Austria-Hungary, in 1918 the Czechs and neighbouring Slovaks joined together and formed the independent republic of Czechoslovakia. In World War II occupied by the Germans in 1939. After World War II, Czechoslovakia fell within the Soviet sphere of influence and became a member of the Warsaw Pact.In 1968, an invasion by Warsaw Pact troops ended the efforts of the country's leaders to liberalize Communist Party rule and create - socialism with a human face-  during the Prague Spring. With the collapse of Soviet authority in 1989, Czechoslovakia regained its freedom through a peaceful Velvet Revolution and became a sovereign state.On 1 January 1993, the country underwent a velvet divorce into its two national components, the Czech Republic and Slovakia. In 1999 the Czech Republic became a member of the NATO and in 2004 a member of the European Union."
+  },
+  {
+    "id": 10,
+    "country_name": "Hungary",
+    "capital_name": "Budapest",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_Hungary#/media/File:Flag_of_Hungary.svg"
+    "country_description": "Hungary was part of the polyglot Austro-Hungarian Empire, which collapsed during World War I. The country fell under communist rule following World War II.In 1956, a revolt and announced withdrawal from the Warsaw Pact were met with a massive military intervention by Moscow. In the more open GORBACHEV years, Hungary led the movement to dissolve the Warsaw Pact and steadily shifted toward multiparty democracy and a market-oriented economy.Following the collapse of the USSR in 1991, Hungary developed close political and economic ties to Western Europe. It joined NATO in 1999 and is a frontrunner in a future expansion of the EU."
+  },
+  {
+    "id": 11,
+    "country_name": "Italy",
+    "capital_name": "Rome",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_Italy#/media/File:Flag_of_Italy.svg"
+    "country_description": "Italy became a nation-state belatedly - in 1861, when the city-states of the peninsula, along with Sardinia and Sicily, were united under King Victor EMMANUEL.An era of parliamentary government came to a close in the early 1920s when Benito MUSSOLINI established a Fascist dictatorship. His disastrous alliance with Nazi Germany led to Italy's defeat in World War II.A democratic republic replaced the monarchy in 1946, and economic revival followed. Italy was a charter member of NATO and the European Economic Community (EEC). It has been at the forefront of European economic and political unification, joining the European Monetary Union in 1999.Persistent problems include illegal immigration, the ravages of organized crime, corruption, high unemployment, and the low incomes and technical standards of southern Italy compared with the more prosperous north."
+  },
+  {
+    "id": 12,
+    "country_name": "Japan",
+    "capital_name": "Tokyo",
+    "country_flag": "https://tr.wikipedia.org/wiki/Japonya_bayra%C4%9F%C4%B1#/media/Dosya:Flag_of_Japan.svg"
+    "country_description": "While retaining its time-honored culture, Japan rapidly absorbed Western technology during the late 19th and early 20th centuries.After its devastating defeat in World War II, Japan recovered to become the third most powerful economy in the world and a staunch ally of the US.While the emperor retains his throne as a symbol of national unity, actual power rests in networks of powerful politicians, bureaucrats, and business executives.The economy experienced a significant slowdown in the 1990s following three decades of unprecedented growth."
+  },
+  {
+    "id": 13,
+    "country_name": "China",
+    "capital_name": "Beijing",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_China#/media/File:Flag_of_the_People's_Republic_of_China.svg"
+    "country_description": "For centuries China has stood as a leading civilization, outpacing the rest of the world in the arts and sciences.But in the first half of the 20th century, China was beset by major famines, civil unrest, military defeats, and foreign occupation. After World War II, the Communists under MAO Zedong established a dictatorship that, while ensuring China's sovereignty, imposed strict controls over everyday life and cost the lives of tens of millions of people.After 1978, Mao's successor DENG Xiaoping gradually introduced market-oriented reforms and decentralized economic decision making. Output quadrupled in the next 20 years and China now has the world's second largest GDP. Political controls remain tight even while economic controls continue to weaken."
+  },
+  {
+    "id": 14,
+    "country_name": "Russian Federation",
+    "capital_name": "Moscow",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_Russia#/media/File:Flag_of_Russia.svg"
+    "country_description": "The defeat of the Russian Empire in World War I led to the seizure of power by communists and the formation of the USSR.The brutal rule of Josef STALIN (1924-53) strengthened Russian dominance of the Soviet Union at the cost of tens of millions of lives. The Soviet economy and society stagnated in the following decades until General Secretary Mikhail GORBACHEV (1985-91) introduced glasnost (openness) and perestroika (restructuring) in an attempt to modernize communism. However, his initiatives inadvertently released forces that by December 1991 splintered the USSR into 15 independent republics.Since then, Russia has struggled in its efforts to build a democratic political system and a market economy to replace the strict social, political, and economic controls of the communist period. Russia shifted toward a centralized authoritarian state under President Vladimir PUTIN (2000-2008, 2012-present) in which the regime seeks to legitimize its rule through managed elections, populist appeals, and a foreign policy focused on enhancing the country's geopolitical influence. The most recent example of this is Russia's role in the Libyan Civil War, where it played all sides to get a seat at the negotiating table. Libyan and U.S. officials accuse Russia of deploying fighters through a private security contractor, the Wagner Group, to key battleground areas in Libya in the past months. Since early November 2021, there has been increasing evidence that Russia is planning an attack on Ukraine.On 24 February 2022, Russia launched a full-scale war of aggression against Ukraine."
+  },
+  {
+    "id": 15,
+    "country_name": "United States",
+    "capital_name": "Washington",
+    "country_flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States.svg"
+    "country_description": "Britain's American colonies broke with the mother country (UK) in 1776 and were recognized as the new nation of the United States of America following the Treaty of Paris in 1783.During the 19th and 20th centuries, 37 new states were added to the original 13 as the nation expanded across the North American continent and acquired a number of overseas possessions.The two most traumatic experiences in the nation's history were the Civil War (1861-65) and the Great Depression of the 1930s.Buoyed by victories in World Wars I and II and the end of the Cold War in 1991, the US remains the world's most powerful nation-state.The economy is marked by steady growth, low unemployment and inflation, and rapid advances in technology."
+  }
+}
