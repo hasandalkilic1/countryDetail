@@ -1,4 +1,5 @@
 {
+  "countries":[
   {
     "id": 1,
     "country_name": "Turkey",
@@ -104,5 +105,6 @@ Since prehistoric times, the region that is known today as France has been the s
     "capital_name": "Washington",
     "country_flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States.svg"
     "country_description": "Britain's American colonies broke with the mother country (UK) in 1776 and were recognized as the new nation of the United States of America following the Treaty of Paris in 1783.During the 19th and 20th centuries, 37 new states were added to the original 13 as the nation expanded across the North American continent and acquired a number of overseas possessions.The two most traumatic experiences in the nation's history were the Civil War (1861-65) and the Great Depression of the 1930s.Buoyed by victories in World Wars I and II and the end of the Cold War in 1991, the US remains the world's most powerful nation-state.The economy is marked by steady growth, low unemployment and inflation, and rapid advances in technology."
-  }
+  }]
+  "success" : 1
 }
