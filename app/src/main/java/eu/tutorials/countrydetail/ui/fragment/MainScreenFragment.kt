@@ -1,7 +1,6 @@
 package eu.tutorials.countrydetail.ui.fragment
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.Menu
@@ -13,16 +12,20 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.MenuProvider
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
-import androidx.recyclerview.widget.LinearLayoutManager
+import dagger.hilt.android.AndroidEntryPoint
 import eu.tutorials.countrydetail.R
-import eu.tutorials.countrydetail.data.entity.Country
 import eu.tutorials.countrydetail.databinding.FragmentMainScreenBinding
 import eu.tutorials.countrydetail.ui.adapter.CountryAdapter
+import eu.tutorials.countrydetail.ui.viewmodel.MainScreenViewModel
 
+//when using hilt, we have to add AndroidEntryPoint to activities and fragments
+@AndroidEntryPoint
 class MainScreenFragment : Fragment(),SearchView.OnQueryTextListener {
 
     private lateinit var binding:FragmentMainScreenBinding
+    private lateinit var viewModel:MainScreenViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding=DataBindingUtil.inflate(inflater, R.layout.fragment_main_screen, container, false)
@@ -31,19 +34,10 @@ class MainScreenFragment : Fragment(),SearchView.OnQueryTextListener {
         binding.mainScreenFragment=this
         (activity as AppCompatActivity).setSupportActionBar(binding.toolbarMainScreen)
 
-
-        val countryList=ArrayList<Country>()
-
-        val c1=Country(1,"Turkey","Ankara","turkey_flag.png","best country")
-        val c2=Country(2,"France","Paris","france_flag.png","a country")
-        val c3=Country(3,"Greece","Athena","greece_flag.png","a country")
-
-        countryList.add(c1)
-        countryList.add(c2)
-        countryList.add(c3)
-
-        val adapter = CountryAdapter(requireContext(),countryList)
-        binding.countryAdapter=adapter
+        viewModel.countryList.observe(viewLifecycleOwner){ countryList->
+            val adapter = CountryAdapter(requireContext(),countryList,viewModel)
+            binding.countryAdapter=adapter
+        }
 
         requireActivity().addMenuProvider(object : MenuProvider{
             override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
@@ -63,18 +57,25 @@ class MainScreenFragment : Fragment(),SearchView.OnQueryTextListener {
         return binding.root
     }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val tempViewModel:MainScreenViewModel by viewModels()
+        viewModel=tempViewModel
+    }
+
     override fun onQueryTextSubmit(query: String): Boolean {
-        search(query)
+        viewModel.search(query)
         return true
     }
 
     override fun onQueryTextChange(newText: String): Boolean {
-        search(newText)
+        viewModel.search(newText)
         return true
     }
+    //refresh main screen
+    /*override fun onResume() {
+        super.onResume()
+        viewModel.uploadCountries()
+    }*/
 
-    fun search(searchWord:String){
-        Log.e("Kişi Ara",searchWord)
-
-    }
 }

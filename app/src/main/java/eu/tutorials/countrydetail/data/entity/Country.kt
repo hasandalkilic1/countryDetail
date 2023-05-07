@@ -2,8 +2,14 @@ package eu.tutorials.countrydetail.data.entity
 
 import android.os.Parcel
 import android.os.Parcelable
+import com.google.gson.annotations.SerializedName
 
-data class Country(var id:Int, var country_name:String, var capital_name:String, var country_flag:String, var country_description:String):Parcelable {
+data class Country(@SerializedName("id")var id:Int,
+                   @SerializedName("country_name")var country_name:String,
+                   @SerializedName("capital_name")var capital_name:String,
+                   @SerializedName("country_flag")var country_flag:String,
+                   @SerializedName("country_description")var country_description:String)
+    :Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readInt(),
         parcel.readString()!!,

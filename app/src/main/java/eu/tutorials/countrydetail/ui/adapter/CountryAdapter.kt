@@ -11,8 +11,10 @@ import eu.tutorials.countrydetail.R
 import eu.tutorials.countrydetail.data.entity.Country
 import eu.tutorials.countrydetail.databinding.CardDesignBinding
 import eu.tutorials.countrydetail.ui.fragment.MainScreenFragmentDirections
+import eu.tutorials.countrydetail.ui.viewmodel.MainScreenViewModel
+import eu.tutorials.countrydetail.util.transition
 
-class CountryAdapter(var context:Context, var countryList:List<Country>)
+class CountryAdapter(var context:Context, var countryList:List<Country>, var viewModel:MainScreenViewModel)
     :RecyclerView.Adapter<CountryAdapter.mViewHolder>() {
     inner class mViewHolder(binding:CardDesignBinding) : RecyclerView.ViewHolder(binding.root){
         var binding:CardDesignBinding
@@ -41,19 +43,10 @@ class CountryAdapter(var context:Context, var countryList:List<Country>)
 
         b.country=country
 
-        if (country.country_flag=="turkey_flag.png") {
-            b.ivCardCountryFlag.setImageResource(R.drawable.turkey_flag)
-        }
-        if (country.country_flag=="france_flag.png") {
-            b.ivCardCountryFlag.setImageResource(R.drawable.france_flag)
-        }
-        if (country.country_flag=="greece_flag.png") {
-            b.ivCardCountryFlag.setImageResource(R.drawable.greece_flag)
-        }
 
         b.cardLine.setOnClickListener { view->
             val transition = MainScreenFragmentDirections.detailTransition(country = country)
-            Navigation.findNavController(view).navigate(transition)
+            Navigation.transition(view, transition)
         }
     }
 }
